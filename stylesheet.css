@@ -1,0 +1,36 @@
+body, html {
+    margin: 0px;
+    padding: 0px;
+}
+
+.game {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(255, 204, 137);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.game-boxes {
+    display: flex;
+    height: 70vh;
+    width: calc(100vw - 65.93vw);
+    background-color: antiquewhite;
+    flex-wrap: wrap;
+    gap: 5px;
+    flex-shrink: 1;
+}
+
+.game-boxes > button {
+    
+    height: 22.9vh;
+    width: 10.47vw;
+    background-color: peachpuff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+
+}
